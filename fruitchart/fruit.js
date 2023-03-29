@@ -14,7 +14,7 @@ window.onload = function() {
     const canvas = document.getElementById('fruit-chart');
     const ctx = canvas.getContext("2d");
 
-    let maxBarHeight = 160;
+    let maxBarHeight = 130;
     let start_y = 0;
     let quantityCalc = 25;
 
@@ -24,6 +24,7 @@ window.onload = function() {
         ctx.fillRect(0, start_y, calcWidth, maxBarHeight);
         ctx.fillStyle = "black";
         ctx.font = "20px Arial";
+        ctx.fillText(fruit[i].quantity, 10, start_y + maxBarHeight / 2 + 30);
         ctx.fillText(fruit[i].name, 10, start_y + maxBarHeight / 2);
         start_y += maxBarHeight + 20;
     }
