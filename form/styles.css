@@ -1,0 +1,55 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* Apply background image here */
+body {
+    background-image: url('assets/rainy-day.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form--content {
+    display: flex;
+    flex-direction: column;
+}
+
+.conversions--content {
+    background-image: url('assets/cloud.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.input--box {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.celsius--converter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5rem;
+}
+
+.fahrenheit--converter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
