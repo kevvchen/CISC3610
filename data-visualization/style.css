@@ -1,0 +1,15 @@
+.doughnut--container {
+    width: 500px;
+    height: 500px;
+}
+
+.horizontal--container {
+    width: 500px;
+    height: 500px;
+}
+
+.main--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
