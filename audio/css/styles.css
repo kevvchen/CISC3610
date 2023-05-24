@@ -1,0 +1,38 @@
+#sound--machine {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.sound-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sound-button:hover {
+    background-color: #e0e0e0;
+}
+
+#pause--button {
+    background-color: #ff7675;
+    color: white; 
+}
+
+#resume--button {
+    background-color: #74b9ff;
+    color: white;
+}
+
+.control--keys {
+    display: flex;
+    gap: 0.5rem;
+}

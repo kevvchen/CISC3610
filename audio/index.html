@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio lab</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="sound--machine">
+        <button class="sound--button" onclick="playSound('assets/lofi-study.mp3')">Lofi music</button>
+        <button class="sound--button" onclick="playSound('assets/something-comforting.mp3')">Something Comforting - Porter Robinson</button>
+        <button class="sound--button" onclick="playSound('assets/candy-paint.mp3')">Candy Paint - Post Malone</button>
+        <button class="sound--button" onclick="playSound('assets/night-changes.mp3')">Night Changes - One Direction</button>
+        <button class="sound--button" onclick="playSound('assets/ditto.mp3')">Ditto - NewJeans</button>
+        <!-- Pausing and resuming -->
+        <div class="control--keys">
+            <button id="pause--button" class="sound--button" onclick="pauseSound()">Pause</button>
+            <button id="resume--button" class="sound--button" onclick="resumeSound()">resume</button>
+        </div>
+        <a href="https://kevvchen.github.io/CISC3610/">Click here to go back to the main page!</a>
+    </div>
+
+</body>
+</html>
